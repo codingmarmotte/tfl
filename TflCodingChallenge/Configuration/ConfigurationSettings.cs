@@ -23,14 +23,14 @@ namespace TflCodingChallenge.Configuration
                 throw new ConfigurationErrorsException($"Unable to convert '{baseUriSetting}' to a valid Uri.");
             }
 
-            appId = ConfigurationManager.AppSettings["appKey"];
+            appId = ConfigurationManager.AppSettings["appId"];
             if (appId == null)
             {
                 throw new ConfigurationErrorsException($"AppSetting 'appId' is missing from the configuration file");
             }
 
 
-            appKey = ConfigurationManager.AppSettings["appId"];
+            appKey = ConfigurationManager.AppSettings["appKey"];
             if (appKey == null)
             {
                 throw new ConfigurationErrorsException($"AppSetting 'appKey' is missing from the configuration file");
