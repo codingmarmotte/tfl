@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TflCodingChallenge", "TflCodingChallenge\TflCodingChallenge.csproj", "{32473F97-6D6A-442A-9BC9-01BFDB29BA83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TflCodingChallenge.UnitTests", "TflCodingChallenge.UnitTests\TflCodingChallenge.UnitTests.csproj", "{4E3D937A-B4A9-4D50-9D99-1040827C0073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TflCodingChallenge.IntegrationTests", "TflCodingChallenge.IntegrationTests\TflCodingChallenge.IntegrationTests.csproj", "{04544786-F9A5-4E83-BA23-A56840F0ECD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TflCodingChallenge.TestHelpers", "TflCodingChallenge.TestHelpers\TflCodingChallenge.TestHelpers.csproj", "{1784C6B0-20F5-4A91-8CFE-98E804ACBFC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FDE4986-7978-48D2-8613-584CEB635AB8}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{DBEC2B6A-35BC-469B-8AF1-EED8EB53B43A}"
+	ProjectSection(SolutionItems) = preProject
+		References\Tfl.Api.Presentation.Entities.dll = References\Tfl.Api.Presentation.Entities.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32473F97-6D6A-442A-9BC9-01BFDB29BA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32473F97-6D6A-442A-9BC9-01BFDB29BA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32473F97-6D6A-442A-9BC9-01BFDB29BA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32473F97-6D6A-442A-9BC9-01BFDB29BA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3D937A-B4A9-4D50-9D99-1040827C0073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3D937A-B4A9-4D50-9D99-1040827C0073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3D937A-B4A9-4D50-9D99-1040827C0073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3D937A-B4A9-4D50-9D99-1040827C0073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04544786-F9A5-4E83-BA23-A56840F0ECD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04544786-F9A5-4E83-BA23-A56840F0ECD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04544786-F9A5-4E83-BA23-A56840F0ECD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04544786-F9A5-4E83-BA23-A56840F0ECD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1784C6B0-20F5-4A91-8CFE-98E804ACBFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1784C6B0-20F5-4A91-8CFE-98E804ACBFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1784C6B0-20F5-4A91-8CFE-98E804ACBFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1784C6B0-20F5-4A91-8CFE-98E804ACBFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
